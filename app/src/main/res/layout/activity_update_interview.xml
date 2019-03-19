@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".UpdateInterviewActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:gravity="center_horizontal"
+            android:text="@string/star_denotes_a_required_field_message"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:contentDescription="@string/title_add_interview_description"
+            android:text="@string/title_add_interview_text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/edit_interview_title_edit_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:layout_marginEnd="@dimen/add_interview_margin_right"
+            android:layout_marginRight="@dimen/add_interview_margin_right"
+            android:background="@color/LightGrey"
+            android:hint="@string/temp_title"
+            android:inputType="textShortMessage"
+            android:paddingStart="@dimen/padding_left_end_interview_add"
+            android:paddingLeft="@dimen/padding_left_end_interview_add"
+            android:paddingTop="@dimen/add_interview_padding_top_bottom"
+            android:paddingEnd="@dimen/padding_left_end_interview_add"
+            android:paddingBottom="@dimen/add_interview_padding_top_bottom"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:contentDescription="@string/title_add_interview_description"
+            android:text="@string/interview_name_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/edit_interview_first_name_edit_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:layout_marginEnd="@dimen/add_interview_margin_right"
+            android:layout_marginRight="@dimen/add_interview_margin_right"
+            android:background="@color/LightGrey"
+            android:hint="@string/interview_name_hint"
+            android:inputType="textPersonName|textCapWords"
+            android:paddingStart="@dimen/padding_left_end_interview_add"
+            android:paddingLeft="@dimen/padding_left_end_interview_add"
+            android:paddingTop="@dimen/add_interview_padding_top_bottom"
+            android:paddingEnd="@dimen/padding_left_end_interview_add"
+            android:paddingBottom="@dimen/add_interview_padding_top_bottom"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:contentDescription="@string/title_add_interview_description"
+            android:text="@string/interview_last_name_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/edit_interview_last_name_edit_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:layout_marginEnd="@dimen/add_interview_margin_right"
+            android:layout_marginRight="@dimen/add_interview_margin_right"
+            android:background="@color/LightGrey"
+            android:hint="@string/interview_last_name_hint"
+            android:inputType="textPersonName|textCapWords"
+            android:paddingStart="@dimen/padding_left_end_interview_add"
+            android:paddingLeft="@dimen/padding_left_end_interview_add"
+            android:paddingTop="@dimen/add_interview_padding_top_bottom"
+            android:paddingEnd="@dimen/padding_left_end_interview_add"
+            android:paddingBottom="@dimen/add_interview_padding_top_bottom"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:contentDescription="@string/title_add_interview_description"
+            android:text="@string/interview_honorifics_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/edit_interview_honorific_title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:layout_marginEnd="@dimen/add_interview_margin_right"
+            android:layout_marginRight="@dimen/add_interview_margin_right"
+            android:background="@color/LightGrey"
+            android:hint="@string/honorifics_interview_hint"
+            android:inputType="textCapCharacters"
+            android:paddingStart="@dimen/padding_left_end_interview_add"
+            android:paddingLeft="@dimen/padding_left_end_interview_add"
+            android:paddingTop="@dimen/add_interview_padding_top_bottom"
+            android:paddingEnd="@dimen/padding_left_end_interview_add"
+            android:paddingBottom="@dimen/add_interview_padding_top_bottom"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:contentDescription="@string/title_add_interview_description"
+            android:text="@string/date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <CalendarView
+            android:id="@+id/updateInterviewDatePickerWidget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="@dimen/add_interview_margin_top" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:contentDescription="@string/time_interview_header"
+            android:text="@string/add_interview_location_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/edit_interview_locationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:layout_marginEnd="@dimen/add_interview_margin_right"
+            android:layout_marginRight="@dimen/add_interview_margin_right"
+            android:background="@color/LightGrey"
+            android:hint="@string/add_interview_example_location"
+            android:inputType="textShortMessage|textCapWords"
+            android:paddingStart="@dimen/padding_left_end_interview_add"
+            android:paddingLeft="@dimen/padding_left_end_interview_add"
+            android:paddingTop="@dimen/add_interview_padding_top_bottom"
+            android:paddingEnd="@dimen/padding_left_end_interview_add"
+            android:paddingBottom="@dimen/add_interview_padding_top_bottom"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:contentDescription="@string/time_interview_header"
+            android:text="@string/add_interview_interview_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/edit_interview_interviewEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:layout_marginEnd="@dimen/add_interview_margin_right"
+            android:layout_marginRight="@dimen/add_interview_margin_right"
+            android:background="@color/LightGrey"
+            android:hint="@string/add_interview_interview_hints"
+            android:inputType="textMultiLine|textCapSentences"
+            android:minLines="5"
+            android:paddingStart="@dimen/padding_left_end_interview_add"
+            android:paddingLeft="@dimen/padding_left_end_interview_add"
+            android:paddingTop="@dimen/add_interview_padding_top_bottom"
+            android:paddingEnd="@dimen/padding_left_end_interview_add"
+            android:paddingBottom="@dimen/add_interview_padding_top_bottom"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:contentDescription="@string/time_interview_header"
+            android:text="@string/add_interview_notes_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <EditText
+            android:id="@+id/edit_interview_interviewNotesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/add_interview_margin_left"
+            android:layout_marginLeft="@dimen/add_interview_margin_left"
+            android:layout_marginTop="@dimen/add_interview_margin_top"
+            android:layout_marginEnd="@dimen/add_interview_margin_right"
+            android:layout_marginRight="@dimen/add_interview_margin_right"
+            android:layout_marginBottom="8dp"
+            android:minLines="5"
+            android:background="@color/LightGrey"
+            android:hint="@string/add_interview_notes_hint"
+            android:inputType="textMultiLine|textCapSentences"
+            android:paddingStart="@dimen/padding_left_end_interview_add"
+            android:paddingLeft="@dimen/padding_left_end_interview_add"
+            android:paddingTop="@dimen/add_interview_padding_top_bottom"
+            android:paddingEnd="@dimen/padding_left_end_interview_add"
+            android:paddingBottom="@dimen/add_interview_padding_top_bottom"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">InterviewerApp</string>
+    <string name="new_interview_title">New Interview</string>
+    <string name="new_interview_text_description">new interview text description</string>
+    <string name="interview_gallery_description">interview gallery description</string>
+    <string name="interview_gallery_title">Interview Gallery</string>
+    <string name="extras_description">extras description</string>
+    <string name="extras_title">Extras</string>
+    <string name="title_activity_interview_gallery">InterviewGalleryActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Page View Interview Gallery Fragment Strings -->
+    <string name="section_format">ID# %1$d</string>
+    <string name="section_format_title">%1$s</string>
+    <string name="temporary_title">TEMPORARY TITLE</string>
+    <string name="interview_gallery_each_title_detail">interview gallery each title</string>
+    <string name="no_people_found_error_message">No People Found</string>
+    <string name="interviewee_text_display">Interviewee:</string>
+    <string name="interviewee_text_display_description">interviewee text display description</string>
+
+    <!-- add new interview section -->
+    <string name="title_add_interview_text">Title*:</string>
+    <string name="title_add_interview_description">title add interview description</string>
+    <string name="interview_editable_title">Interview Editable Title</string>
+    <string name="temp_title">temp title</string>
+    <string name="cancel_menu_item">close</string>
+    <string name="save_menu_item">save</string>
+    <string name="interview_name_hint">Jane</string>
+    <string name="interview_name_header">First Name*:</string>
+    <string name="interview_last_name_hint">Doe</string>
+    <string name="interview_last_name_header">Last Name*:</string>
+    <string name="interview_honorifics_header">Honorifics:</string>
+    <string name="honorifics_interview_hint">\'Mrs.\', \'DR.\', \'MD.\', ...</string>
+    <string name="star_denotes_a_required_field_message">* Star denotes a required field *</string>
+    <string name="date_interview_text">Date*:</string>
+    <string name="date_hint_resource">21/02/2019</string>
+    <string name="date_input_add_interview_header">date input add interview header</string>
+    <string name="time_interview_title">Time:</string>
+    <string name="time_interview_header">time interview header</string>
+    <string name="interview_time_example_hint">14:24</string>
+    <string name="interview_date_hint">DD/MM/YYYY</string>
+    <string name="add_interview_example_location">New York, NY</string>
+    <string name="add_interview_location_header">Location:</string>
+    <string name="add_interview_interview_header">Interview:</string>
+    <string name="add_interview_notes_header">Notes:</string>
+    <string name="add_interview_notes_hint">Personal feelings, random extra thoughts, overview?\n\n\n</string>
+    <string name="add_interview_interview_hints">Lorem ipsum dolar maxius, when the birds come home. \n\n\n</string>
+    <string name="interview_textview_brief_summary">Interview textview brief summary</string>
+    <string name="add_interview_date">Date</string>
+    <string name="date">Date*:</string>
+    <string name="settings">Settings</string>
+    <!-- TODO seperate stings better? -->
+
+
+</resources>
